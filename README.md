@@ -21,7 +21,6 @@ Install the required packages:
 
 bash
 ```
-Copy
 pip install vpython
 ```
 How to Run the Program
@@ -33,8 +32,7 @@ Make sure you have the necessary libraries installed (vpython).
 
 bash
 ```
-Copy
-python montecarlo_pi_estimation.py
+python3 MonteCarlo.py
 ```
 Watch the simulation run, throwing points and calculating Pi.
 Code Explanation
@@ -64,7 +62,6 @@ After all iterations, the program prints the estimated value of Pi and the absol
 Example Output
 bash
 ```
-Copy
 Pi estimate = 3.1416
 Absolute error = 0.000130899
 ```
